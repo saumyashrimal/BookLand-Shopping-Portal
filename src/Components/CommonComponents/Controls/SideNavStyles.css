@@ -1,0 +1,17 @@
+#navContent{
+
+    margin-top: 400px;
+
+    list-style: none;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidenav{
+    margin-top: .5px;
+}

@@ -1,0 +1,17 @@
+.checkoutdiv{
+    margin-top: 20px;
+    height: 280px;
+}
+
+.boldText{
+    font-weight: bold;
+}
+
+.emptyCart{
+    height: 200px;
+}
+
+.cartItem{
+    height: 150px;
+}
+

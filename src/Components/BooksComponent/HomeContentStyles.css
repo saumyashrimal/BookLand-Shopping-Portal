@@ -1,0 +1,14 @@
+.Homecontentwithbg{
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(0,0,0,0.70), rgb(255,255,255,0.73)),
+    url('https://media.wired.com/photos/5e31b8f7347f2e0008d36103/master/pass/Cul-books-1157573700.jpg');
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

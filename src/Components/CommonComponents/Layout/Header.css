@@ -1,0 +1,116 @@
+#Address{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#Address:hover{
+    border:1px solid white;
+}
+
+.navbar-brand:hover,.nav-item:hover{
+    cursor: pointer;
+    border:1px solid white;
+}
+
+.searchdiv{
+    width: 45%;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.cartdiv{
+    display: none;
+}
+
+.nav-link .username{
+    color:white
+}
+
+.subheader .nav-link{
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-toggler{
+    display: none;
+}
+
+.searchdiv .searchSuggestion{
+    position: fixed;
+    background-color: blue;
+}
+
+
+
+@media only screen and (max-width:1000px) {
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .subheader , .nav-menu  , .search-btn{
+        display: none;
+    }
+
+    .navbar .navbar-toggler{
+        margin-right: auto;
+        margin-left: 10px;
+        background-color: black;   
+        display: inline;
+        border: 2px solid white;
+    }
+    
+    .searchdiv{
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .sidenav{
+        width: 90%;
+        position: absolute;
+
+        z-index: 1;
+    }
+
+    .cartdiv{
+        display: inline;
+        margin-right: 30px;
+        text-decoration: none;
+    }
+
+    .cartdiv:hover{
+        border:1px solid white;
+        padding: 13px;
+    }
+
+    .cartdiv .cartlink{
+        color:white;
+        text-decoration: none;
+    }
+    
+    .logo{
+        margin-right: auto;
+    }
+
+    #address{
+        display: block;
+        width: 100%;
+        background:grey;
+        margin-bottom: 10px;
+    }
+
+    #address .nav-item{
+        color: black;
+        margin-left: 20px;
+    }
+
+}
+
+
+
+

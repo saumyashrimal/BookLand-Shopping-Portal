@@ -1,0 +1,23 @@
+
+
+.ImgInputPopup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Imgmodal{
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    height: 70%;
+}
+

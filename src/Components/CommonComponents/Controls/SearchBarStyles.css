@@ -1,0 +1,9 @@
+
+
+.searchdiv .list-group{
+    width: 45%;
+    position: absolute;
+    z-index: 1;
+}
+
+
